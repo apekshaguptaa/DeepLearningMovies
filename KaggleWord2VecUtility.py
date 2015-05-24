@@ -14,7 +14,7 @@ class KaggleWord2VecUtility(object):
     """KaggleWord2VecUtility is a utility class for processing raw HTML text into segments for further learning"""
 
     @staticmethod
-    def review_to_wordlist( review, remove_stopwords=False ):
+    def review_to_wordlist( review, remove_stopwords=True):
         # Function to convert a document to a sequence of words,
         # optionally removing stop words.  Returns a list of words.
         #
